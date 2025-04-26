@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Header section */
+header {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 6rem 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#cta-button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+    color: #2575fc;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#cta-button:hover {
+    background: #e0e0e0;
+}
+
+/* Info section */
+.info {
+    background: #ffffff;
+    padding: 4rem 0;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #bbb;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
